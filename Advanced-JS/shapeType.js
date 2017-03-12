@@ -11,7 +11,7 @@ var shape = function(){
     var constructor = function(x,y){
         this.x = x;
         this.y = y;
-    }
+    };
 }
 
 shape.prototype.move = function(x,y){

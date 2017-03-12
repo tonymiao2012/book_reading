@@ -3,7 +3,6 @@
  */
 var createPeople = function(name){
     var sex;
-    var name;
     return {
         setName: function(newName){
             name = newName;
@@ -20,7 +19,7 @@ var createPeople = function(name){
             }
         }
     }
-}
+};
 
 var newguy = createPeople("Tony");
 console.log(newguy.getName());
