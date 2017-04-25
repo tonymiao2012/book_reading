@@ -30,3 +30,20 @@ SubType.prototype.getSubValue = function(){
 
 var instance = new SubType();
 console.log(instance.getSuperValue());
+
+
+//Constructor stealing
+function SuperType() {
+    this.colors = ["red", "blue", "green"];
+}
+
+function SubType(){
+    SuperType.call(this);
+}
+
+var ins1 = new SubType();
+ins1.colors.push("black");
+console.log(ins1.colors);
+
+var ins2 = new SubType();
+console.log(ins2.colors);
