@@ -3,7 +3,7 @@
  */
 /*
 * One of the pitfall in JS is 'this' attribute. It varies according to dynamic running context.
-* Let's see an non-sense example about 'this':
+* Let's see a non-sense example about 'this':
 */
 
 //Example 1
@@ -65,3 +65,31 @@ point.y;    //1
 x;  //Error
 y;  //Error
 
+//To bind the running context with value, we could use Function.prototype.call() or Function.prototype.apply().
+/* Call method
+ * Syntax: function.call(thisArg, arg1, arg2...)
+ * thisArg: The value of this provided for the call to a function.
+ * arg1, arg2: Arguments for the function.
+ * Return value: The result of calling the function with the specified this value and arguments.
+ */
+//a
+var x = 10;
+
+function f()
+{
+    alert(this.x);
+}
+
+f();
+
+//b
+var x = 10;
+var o = { x: 15 };
+
+function f()
+{
+    alert(this.x);
+}
+
+f();
+f.call(o);
