@@ -1,30 +1,30 @@
 /**
  * Created by antowa on 4/10/16.
+ * Be careful when using closures.
  */
-var createPeople = function(name){
-    var sex;
-    return {
-        setName: function(newName){
-            name = newName;
-        },
-        getName: function(){
-            return name;
-        },
-        getSex: function(){
-            return sex;
-        },
-        setSex: function(newSex){
-            if(typeof newSex === "string" && (newSex.toLowerCase() === "male" || newSex.toLowerCase() === "female")){
-                sex = newSex;
-            }
+
+//A constructor return an anonymous function to compare two intrinsic value.
+function createComparisonFunction(propertyName){
+
+    return function(obj1, obj2){
+        var value1 = obj1[propertyName];    //activation object
+        var value2 = obj2[propertyName];
+
+        if(value1 < value2){
+            return -1;
+        }else if(value1 > value2){
+            return 1;
+        }else{
+            return 0;
         }
     }
-};
+}
+//Create a method
+var compare = createComparisonFunction("name");
 
-var newguy = createPeople("Tony");
-console.log(newguy.getName());
-newguy.setName("Zixiong");
-console.log(newguy.getName());
+//function call. This gives the anonymous function access to all the variable from createComparisonFunction()
+var result = compare({name: "Nicholas"}, {name: "Greg"});
 
-newguy.setSex("Male");
-console.log(newguy.getSex());
+//dereference function, memory can now be reclaimed
+compare = null;
+
