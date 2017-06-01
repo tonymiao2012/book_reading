@@ -12,7 +12,7 @@
     };
     Person.prototype.setName = function (val) {
         name = val;
-    }
+    };
 })();
 
 var person1 = new Person("Nick");
