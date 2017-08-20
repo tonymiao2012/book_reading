@@ -3,8 +3,8 @@
  */
 //With static name value
 (function () {
-    var name = "";
-    Person = function (value) {
+    var name = "";      //Private local var
+    Person = function (value) {     //Public constructor
         name = value;
     };
     Person.prototype.getName = function () {
@@ -26,7 +26,7 @@ console.log(person2.getName());
 
 //With seperated name value
 (function () {
-    var name = "";
+    var name = "";  //Unused local private var
     this_Person = function (value) {
         this.name = value;
     };
