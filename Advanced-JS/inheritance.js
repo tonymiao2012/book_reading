@@ -155,3 +155,46 @@ inheritProtoType(SubType, SuperType);
 SubType.prototype.sayAge = function () {
     console.log(this.age);
 };
+
+/*
+* 补充：JS的继承方法->原型链法，属性复制法，构造器应用法
+*/
+//1.原型链法
+function Animal(){
+  this.name = "animal";
+}
+
+Animal.prototype.sayName = function(){
+    console.log(this.name);
+}
+
+function Person(){};
+Person.prototype = Animal.prototype;
+Person.prototype.constructor = "Person";
+
+//2.属性复制法
+function Animal(){
+    this.name = 'animal';
+}
+
+Animal.prototype.sayName = function(){
+  console.log(this.name);
+}
+
+function Person(){};
+for(prop in Animal.prototype){
+    Person.prototype[prop] = Animal.prototype[prop];
+}
+Person.prototype.constructor = "Person";
+
+//3.构造器应用法
+function Animal(){
+    this.name = "animal";
+}
+Animal.prototype.sayName = function(){
+  console.log(this.name);
+}
+
+function Person(){
+    Animal.call(this);
+}
