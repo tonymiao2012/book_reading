@@ -34,6 +34,17 @@ function Person(name, age, job){
 var p1 = new Person("Tony", 29, "SDE");
 var p2 = new Person ("Greg", 27, "SDET");
 
+//Another example of constructor method
+function Person(){
+    this.name = "tmiao";
+}
+
+Person.prototype.sayName = function(){
+    console.log(this.name);
+}
+
+var person = new Person();
+person.sayName();
 
 //3. Prototype pattern
 function Person() {
@@ -50,4 +61,15 @@ Person.prototype = {
 
 //Usage
 var p3 = new Person();
+
+//4/Object create method. This method is almost the same as factory method.
+var Person = {
+  name: 'tmiao',
+  sayName: function(){
+      console.log(this.name);
+  }
+};
+
+var person = Object.create(Person);
+person.sayName();
 
