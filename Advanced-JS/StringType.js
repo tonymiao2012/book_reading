@@ -46,3 +46,12 @@ function HTMLReplaceGame(text){
 };
 
 console.log(HTMLReplaceGame("<p class = \"greeting\">Hello world</p>"));
+
+let text = "red, blue, green, yellow";
+text.split(",");    //["red", " blue", " green", " yellow"]
+text.split(",", 2); //["red", " blue"]
+
+let stringVal = "yellow";
+console.log(stringVal.localeCompare("brick"));
+console.log(stringVal.localeCompare("yellow"));
+
