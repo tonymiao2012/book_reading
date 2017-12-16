@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045e47dc-512a-40f8-8434-922ae8306c86" name="Default" comment="Revise">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VUE/keep-alive example/logic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VUE/keep-alive example/with_keep-alive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VUE/keep-alive example/without_keep-alive.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/VUE/vue-event-bus.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,38 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inheritance.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced-JS/inheritance.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JS bit-array methods.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-fundation/JS bit-array methods.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JS bit-function type.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS-fundation/JS bit-function type.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="button.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS-fundation/JS bit-events/button.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,8 +36,13 @@
         <entry file="file://$PROJECT_DIR$/JS-fundation/JS bit-object properties.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-              <folding />
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <marker date="1512895838656" expanded="false" signature="0:41" ph="/** Created by antowa on 12/10/17. ...*/" />
+                <marker date="1512895838656" expanded="true" signature="106:235" ph="/** Data property: Contains a single location for a data value. ...*/" />
+                <marker date="1512895838656" expanded="true" signature="292:334" ph="{&quot;value&quot;: &quot;Tony&quot;...}" />
+                <marker date="1512895838656" expanded="true" signature="451:492" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/without_keep-alive.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -89,18 +61,84 @@
         <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/with_keep-alive.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logic.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="before.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VUE/why-use-mixins-example/before.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-112">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1513330418420" expanded="false" signature="0:41" ph="/** Created by antowa on 12/15/17. ...*/" />
+                <marker date="1513330418420" expanded="true" signature="64:331" ph="{&quot;template&quot;: '##modal'...}" />
+                <marker date="1513330418420" expanded="true" signature="103:170" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="121:163" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="186:276" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="210:269" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="295:328" ph="{&quot;appChild&quot;: Child...}" />
+                <marker date="1513330418420" expanded="true" signature="357:626" ph="{&quot;template&quot;: '##tooltip'...}" />
+                <marker date="1513330418420" expanded="true" signature="398:465" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="416:458" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="481:571" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="505:564" ph="{...}" />
+                <marker date="1513330418420" expanded="true" signature="590:623" ph="{&quot;appChild&quot;: Child...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="after.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VUE/why-use-mixins-example/after.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <marker date="1513330435103" expanded="false" signature="0:41" ph="/** Created by antowa on 12/15/17. ...*/" />
+                <marker date="1513330435103" expanded="true" signature="57:247" ph="{...}" />
+                <marker date="1513330435103" expanded="true" signature="71:138" ph="{...}" />
+                <marker date="1513330435103" expanded="true" signature="89:131" ph="{...}" />
+                <marker date="1513330435103" expanded="true" signature="154:244" ph="{...}" />
+                <marker date="1513330435103" expanded="true" signature="178:237" ph="{...}" />
+                <marker date="1513330435103" expanded="true" signature="263:366" ph="{&quot;template&quot;: '##modal'...}" />
+                <marker date="1513330435103" expanded="true" signature="330:363" ph="{&quot;appChild&quot;: Child...}" />
+                <marker date="1513330435103" expanded="true" signature="385:490" ph="{&quot;template&quot;: '##tooltip'...}" />
+                <marker date="1513330435103" expanded="true" signature="454:487" ph="{&quot;appChild&quot;: Child...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue-event-bus.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VUE/vue-event-bus.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/logic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="525">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <marker date="1513233321279" expanded="true" signature="0:93" ph="/** Created by antowa on 12/14/17. ...*/" />
+                <marker date="1513233321279" expanded="true" signature="106:332" ph="{&quot;name&quot;: 'foo'...}" />
+                <marker date="1513233321279" expanded="true" signature="210:330" ph="{...}" />
+                <marker date="1513233321279" expanded="true" signature="227:324" ph="{...}" />
+                <marker date="1513233321279" expanded="true" signature="346:572" ph="{&quot;template&quot;: '&lt;div&gt;&lt;p v-for=&quot;n in numbers&quot;&gt;&lt;strong&gt;{{ n }}&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;'...}" />
+                <marker date="1513233321279" expanded="true" signature="450:570" ph="{...}" />
+                <marker date="1513233321279" expanded="true" signature="467:564" ph="{...}" />
+                <marker date="1513233321279" expanded="true" signature="589:667" ph="[...]" />
+                <marker date="1513233321279" expanded="true" signature="698:712" ph="{&quot;routes&quot;: routes...}" />
+                <marker date="1513233321279" expanded="true" signature="736:750" ph="{&quot;router&quot;: router...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,18 +149,15 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="false" />
+                <marker date="1511184991000" expanded="false" signature="0:41" ph="/** Created by antowa on 11/20/17. ...*/" />
+                <marker date="1511184991000" expanded="true" signature="58:622" ph="{...}" />
+                <marker date="1511184991000" expanded="true" signature="108:116" ph="{...}" />
+                <marker date="1511184991000" expanded="true" signature="147:199" ph="{...}" />
+                <marker date="1511184991000" expanded="true" signature="231:287" ph="{...}" />
+                <marker date="1511184991000" expanded="true" signature="324:452" ph="{...}" />
+                <marker date="1511184991000" expanded="true" signature="490:620" ph="{...}" />
+                <marker date="1511184991000" expanded="true" signature="697:735" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Promise.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Advanced-JS/Promise.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +170,7 @@
         <option value="VUE file" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="VUE" />
       </list>
     </option>
   </component>
@@ -184,6 +220,10 @@
         <option value="$PROJECT_DIR$/VUE/keep-alive example/without_keep-alive.html" />
         <option value="$PROJECT_DIR$/VUE/keep-alive example/with_keep-alive.html" />
         <option value="$PROJECT_DIR$/VUE/keep-alive example/logic.js" />
+        <option value="$PROJECT_DIR$/VUE/why-use-mixins-example/before.js" />
+        <option value="$PROJECT_DIR$/VUE/why-use-mixins-example/after.js" />
+        <option value="$PROJECT_DIR$/VUE/vue-event-bus.js" />
+        <option value="$PROJECT_DIR$/VUE/vue-event-bus.vue" />
       </list>
     </option>
   </component>
@@ -229,10 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="VUE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keep-alive example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,7 +558,7 @@
       <workItem from="1512289877298" duration="492000" />
       <workItem from="1512351350348" duration="104000" />
       <workItem from="1512894371344" duration="2539000" />
-      <workItem from="1513232837337" duration="477000" />
+      <workItem from="1513232837337" duration="5131000" />
     </task>
     <task id="LOCAL-00001" summary="Example about for statement.">
       <created>1487587975421</created>
@@ -685,11 +721,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511252885034</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="VUE mixin example">
+      <created>1513330588323</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1513330588323</updated>
+    </task>
+    <task id="LOCAL-00025" summary="vue-event-bus example">
+      <created>1513412720194</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1513412720194</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120410000" />
+    <option name="totallyTimeSpent" value="125064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,9 +752,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17588204" sideWeight="0.4957265" order="2" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17588204" sideWeight="0.4957265" order="2" side_tool="true" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -754,7 +803,9 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Update create-object.js" />
     <MESSAGE value="JS events" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS events" />
+    <MESSAGE value="VUE mixin example" />
+    <MESSAGE value="vue-event-bus example" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue-event-bus example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,34 +814,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Advanced-JS/classLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-JS/person.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-JS/for_statement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Advanced-JS/for_statement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced-JS/for_statement.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -962,9 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
           <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +1026,21 @@
         <state relative-caret-position="777">
           <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1509548409000" expanded="true" signature="0:47" ph="/** Created by miaozixiong on 2017-11-1. ...*/" />
+            <marker date="1509548409000" expanded="true" signature="48:232" ph="/** In JS, each function is an instance of the Function type that has properties and methods just like any other reference type. ...*/" />
+            <marker date="1509548409000" expanded="true" signature="262:287" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="323:348" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="589:612" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="636:659" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="696:839" ph="/** Function declaration hoisting: JS engine does a first pass for function declarations and pulls them to the top of the source code. ...*/" />
+            <marker date="1509548409000" expanded="true" signature="884:909" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="1059:1110" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="1112:1169" ph="/** Also, functions could be used as parameters. ...*/" />
+            <marker date="1509548409000" expanded="true" signature="1218:1441" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="1249:1439" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="1341:1365" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="1385:1408" ph="{...}" />
+            <marker date="1509548409000" expanded="true" signature="1412:1435" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1015,7 +1050,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <marker date="1511184991000" expanded="false" signature="0:41" ph="/** Created by antowa on 11/20/17. ...*/" />
+            <marker date="1511184991000" expanded="true" signature="58:622" ph="{...}" />
+            <marker date="1511184991000" expanded="true" signature="108:116" ph="{...}" />
+            <marker date="1511184991000" expanded="true" signature="147:199" ph="{...}" />
+            <marker date="1511184991000" expanded="true" signature="231:287" ph="{...}" />
+            <marker date="1511184991000" expanded="true" signature="324:452" ph="{...}" />
+            <marker date="1511184991000" expanded="true" signature="490:620" ph="{...}" />
+            <marker date="1511184991000" expanded="true" signature="697:735" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1038,31 +1080,104 @@
     <entry file="file://$PROJECT_DIR$/JS-fundation/JS bit-object properties.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <marker date="1512895838656" expanded="false" signature="0:41" ph="/** Created by antowa on 12/10/17. ...*/" />
+            <marker date="1512895838656" expanded="true" signature="106:235" ph="/** Data property: Contains a single location for a data value. ...*/" />
+            <marker date="1512895838656" expanded="true" signature="292:334" ph="{&quot;value&quot;: &quot;Tony&quot;...}" />
+            <marker date="1512895838656" expanded="true" signature="451:492" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/without_keep-alive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/with_keep-alive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/logic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <marker date="1513233321279" expanded="true" signature="0:93" ph="/** Created by antowa on 12/14/17. ...*/" />
+            <marker date="1513233321279" expanded="true" signature="106:332" ph="{&quot;name&quot;: 'foo'...}" />
+            <marker date="1513233321279" expanded="true" signature="210:330" ph="{...}" />
+            <marker date="1513233321279" expanded="true" signature="227:324" ph="{...}" />
+            <marker date="1513233321279" expanded="true" signature="346:572" ph="{&quot;template&quot;: '&lt;div&gt;&lt;p v-for=&quot;n in numbers&quot;&gt;&lt;strong&gt;{{ n }}&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;'...}" />
+            <marker date="1513233321279" expanded="true" signature="450:570" ph="{...}" />
+            <marker date="1513233321279" expanded="true" signature="467:564" ph="{...}" />
+            <marker date="1513233321279" expanded="true" signature="589:667" ph="[...]" />
+            <marker date="1513233321279" expanded="true" signature="698:712" ph="{&quot;routes&quot;: routes...}" />
+            <marker date="1513233321279" expanded="true" signature="736:750" ph="{&quot;router&quot;: router...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VUE/keep-alive example/with_keep-alive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VUE/why-use-mixins-example/before.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1513330418420" expanded="false" signature="0:41" ph="/** Created by antowa on 12/15/17. ...*/" />
+            <marker date="1513330418420" expanded="true" signature="64:331" ph="{&quot;template&quot;: '##modal'...}" />
+            <marker date="1513330418420" expanded="true" signature="103:170" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="121:163" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="186:276" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="210:269" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="295:328" ph="{&quot;appChild&quot;: Child...}" />
+            <marker date="1513330418420" expanded="true" signature="357:626" ph="{&quot;template&quot;: '##tooltip'...}" />
+            <marker date="1513330418420" expanded="true" signature="398:465" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="416:458" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="481:571" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="505:564" ph="{...}" />
+            <marker date="1513330418420" expanded="true" signature="590:623" ph="{&quot;appChild&quot;: Child...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VUE/why-use-mixins-example/after.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <marker date="1513330435103" expanded="false" signature="0:41" ph="/** Created by antowa on 12/15/17. ...*/" />
+            <marker date="1513330435103" expanded="true" signature="57:247" ph="{...}" />
+            <marker date="1513330435103" expanded="true" signature="71:138" ph="{...}" />
+            <marker date="1513330435103" expanded="true" signature="89:131" ph="{...}" />
+            <marker date="1513330435103" expanded="true" signature="154:244" ph="{...}" />
+            <marker date="1513330435103" expanded="true" signature="178:237" ph="{...}" />
+            <marker date="1513330435103" expanded="true" signature="263:366" ph="{&quot;template&quot;: '##modal'...}" />
+            <marker date="1513330435103" expanded="true" signature="330:363" ph="{&quot;appChild&quot;: Child...}" />
+            <marker date="1513330435103" expanded="true" signature="385:490" ph="{&quot;template&quot;: '##tooltip'...}" />
+            <marker date="1513330435103" expanded="true" signature="454:487" ph="{&quot;appChild&quot;: Child...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VUE/vue-event-bus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VUE/vue-event-bus.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
